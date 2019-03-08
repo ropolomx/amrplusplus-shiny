@@ -47,7 +47,7 @@ load_amr_annotations <- function(annotations_filepath) {
 load_kraken_data <- function(kraken_filepath) {
     out <- tryCatch(
         {
-            temp_kraken <- read.table(kraken_filepath, header=T, row.names=1, sep=',', quote="",check.names = F)
+            temp_kraken <- read.table(kraken_filepath, header=T, row.names=1, sep=',', quote="\"",check.names = F)
             kraken <- newMRexperiment(temp_kraken[rowSums(temp_kraken) > 0, ])
         },
         error=function(e) {
