@@ -5,7 +5,7 @@ load_amr_counts <- function(amr_filepath) {
     # Load the data, MEGARes annotations, and metadata
     out <- tryCatch(
         {
-            newMRexperiment(read.table(amr_filepath, header=T, row.names=1, sep=',', check.names = F))
+            newMRexperiment(read.table(amr_filepath, header=T, row.names=1, sep=',', quote = "\"",check.names = F))
         },
         error=function(e) {
             print('Error in loading of the AMR count file\nCheck file integrity')
@@ -25,7 +25,7 @@ load_amr_counts <- function(amr_filepath) {
 load_amr_annotations <- function(annotations_filepath) {
     out <- tryCatch(
         {
-            annotations <- data.table(read.csv(annotations_filepath, header=T))
+            annotations <- data.table(read.csv(annotations_filepath, header=T, quote = "\""))
             setkey(annotations, header)
             return(annotations)
         },
