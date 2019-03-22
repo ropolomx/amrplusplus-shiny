@@ -7,9 +7,7 @@ MEGARes: an antimicrobial database for high throughput sequencing. *Nucleic Acid
 
 The AMR++ suite of tools was developed to enable intuitive processing of metagenomic data surrounding the antimicrobial resistome and microbiome.  [AMR++ Nextflow](https://www.github.com/cdeanj/amrplusplus) is the bioinformatics command-line tool for processing next-generation sequencing files into analytic matrices.  The analytic matrices produced by AMR++ Nextflow are used as input into AMR++ Shiny.  Within AMR++ Shiny, you can explore your data visually and produce graphical and statistical output to streamline your metagenomic sequencing project.  Follow the steps below to get started.
 
-## Installation and Cloud Computing Resources
-
-AMR++ Shiny is available for free on [shinyapps.io](https://lakinsm.shinyapps.io/amrplusplus-shiny/).  With shinyapps.io, no installation is necessary, and you can begin processing your data immediately.
+## Installation
 
 If you wish to process data locally, you can download this repository, execute the Install_Prerequisite_Packages.R script, open the server.R file in [RStudio](https://www.rstudio.com/products/rstudio/download/), select the arrow on the top bar next to "Run App", select "Run External", then click the "Run App" button to launch AMR++ Shiny in your internet browser.  It is important that you run the App externally, since it will not work if run natively in RStudio.
 
@@ -24,7 +22,7 @@ If you do not wish to use the automatic install script, you can download the fol
 
 It is important that you have installed up-to-date packages and are running an R version > 3.0.0.
 
-## Useage
+## Usage
 
 AMR++ Shiny has instructions built into the App describing each step.  You will need the following files that are output from the AMR++ Nextflow pipeline (NOTE: the MEGARes annotation file must match the version of the file used in the AMR++ Nextflow pipeline):
 
