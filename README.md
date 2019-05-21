@@ -96,9 +96,9 @@ For each analysis set up on the final screen, the following statistical features
 
 ## Bug Reporting and Help
 
-Bugs can be reported on this github page under the "Issues" tab.  Please include context of what you were doing at the time of crash and an error if provided.
+Bugs and requests for new features can be reported on this github page under the **"Issues"** tab. Please include context of what you were doing at the time of crash and an error if provided.
 
-General use and feature requests can be submitted on the [AMR++ Suite user's Google groups page](https://groups.google.com/forum/#!forum/amrplusplus-users).
+General use requests can be submitted on the [AMR++ Suite user's Google groups page](https://groups.google.com/forum/#!forum/amrplusplus-users).
 
 
 
