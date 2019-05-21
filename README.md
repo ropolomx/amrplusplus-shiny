@@ -1,15 +1,19 @@
 # AMR++ Shiny: Statistics Interface for Metagenomic Resistome and Microbiome Analyses
 
+This is a fork of a repository originally developed by Steven Lakin (Colorado State University). This fork includes bug fixes and will add new features.
+
 **Citation:**
 
 Lakin, S.M., Dean, C., Noyes, N.R., Dettenwanger, A., Spencer Ross, A., Doster, E., Rovira, P., Abdo, Z., Jones, K.L., Ruiz, J., Belk, K.E., Morley, P.S., Boucher, C. (2017)
 MEGARes: an antimicrobial database for high throughput sequencing. *Nucleic Acids Res.*, 45. DOI: 10.1093/nar/gkw1009
 
-The AMR++ suite of tools was developed to enable intuitive processing of metagenomic data surrounding the antimicrobial resistome and microbiome.  [AMR++ Nextflow](https://www.github.com/cdeanj/amrplusplus) is the bioinformatics command-line tool for processing next-generation sequencing files into analytic matrices.  The analytic matrices produced by AMR++ Nextflow are used as input into AMR++ Shiny.  Within AMR++ Shiny, you can explore your data visually and produce graphical and statistical output to streamline your metagenomic sequencing project.  Follow the steps below to get started.
+The AMR++ suite of tools was developed to enable intuitive processing of metagenomic data surrounding the antimicrobial resistome and microbiome.  [AMR++ Nextflow](https://www.github.com/cdeanj/amrplusplus) is a bioinformatics command-line tool for processing next-generation sequencing files into analytic matrices. The analytic matrices produced by AMR++ Nextflow or other code such as the [AMR++ helper scripts](https://github.com/ropolomx/amrplusplus_helper_scripts) are used as input into AMR++ Shiny.  Within AMR++ Shiny, you can explore your data visually and produce graphical and statistical output to streamline your metagenomic sequencing project. Follow the steps below to get started.
 
 ## Installation
 
-If you wish to process data locally, you can download this repository, execute the Install_Prerequisite_Packages.R script, open the server.R file in [RStudio](https://www.rstudio.com/products/rstudio/download/), select the arrow on the top bar next to "Run App", select "Run External", then click the "Run App" button to launch AMR++ Shiny in your internet browser.  It is important that you run the App externally, since it will not work if run natively in RStudio.
+If you wish to process data locally, you can either download this repository, execute the Install_Prerequisite_Packages.R script, open the server.R file in [RStudio](https://www.rstudio.com/products/rstudio/download/), select the arrow on the top bar next to "Run App", select "Run External", then click the "Run App" button to launch AMR++ Shiny in your internet browser. It is important that you run the App externally, since it will not work if run natively in RStudio.
+
+There is also a [page with releases](https://github.com/ropolomx/amrplusplus-shiny/releases) with tested bug fixes.
 
 If you do not wish to use the automatic install script, you can download the following packages yourself in R:
 
